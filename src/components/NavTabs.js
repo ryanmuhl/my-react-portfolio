@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div class="nav-all">
       <header class="header">
-        <h1 class="text-white">Ryan Uhl's Portfolio</h1>
+        <h1 class="text-white page-title">Ryan Uhl's Portfolio</h1>
       </header>
       <div>
     <ul class="nav nav-tabs">

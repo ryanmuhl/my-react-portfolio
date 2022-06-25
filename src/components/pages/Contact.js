@@ -40,7 +40,7 @@ function ContactForm() {
   return (
     <section class="pt-5 contact-form">
       <div class="container">
-      <h1 class="text-white" data-testid="h1tag">Contact me</h1>
+      <h1 class="text-white body-title" data-testid="h1tag">Contact me</h1>
       </div>
       <form class="container p-3 mb-5 rounded contact-container" id="contact-form" onSubmit={handleSubmit}>
         <div class="row pb-1">
