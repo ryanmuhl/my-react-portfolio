@@ -35,7 +35,13 @@ export default function PortfolioContainer() {
       {renderPage()}
 
 
-      <div>Hello</div>
+      <div class="container col-sm pt-5">
+        <div class="row align-items-center footer-container">
+        <a class="col footer-link text-center" href="https://github.com/settings/repositories" target="_blank">GitHub</a>
+        <a class="col footer-link text-center" href="https://linkedin.com/in/ryan-uhl-058372103" target="_blank">LinkedIn</a>
+        <a class="col footer-link text-center" href="https://www.facebook.com/ryan.uhl.90" target="_blank">Facebook</a>
+        </div>
+        </div>
     </div>
     
   );

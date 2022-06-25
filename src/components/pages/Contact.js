@@ -38,7 +38,8 @@ function ContactForm() {
   };
 
   return (
-    <section class="pt-5 contact-form">
+    <section>
+    <div class="pt-5 contact-form">
       <div class="container">
       <h1 class="text-white body-title" data-testid="h1tag">Contact Me</h1>
       </div>
@@ -62,9 +63,9 @@ function ContactForm() {
         )}
         <button type="submit" class="btn btn-outline-light" data-testid="button">Dark</button>
       </form>
-
-
+  </div>
     </section>
+    
   );
 }
 

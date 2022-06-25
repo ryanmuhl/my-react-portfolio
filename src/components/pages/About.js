@@ -1,12 +1,12 @@
 import React from 'react';
-import coverImage from '../../assets/OBIWAN.jpg'
+import coverImage from '../../assets/headshot.jpg'
 
 export default function About() {
   return (
     <div class="container pt-5">
       <img src={coverImage} class="img-fluid img-thumbnail picture" alt="Responsive image"></img>
       <h1 class="text-white body-title pt-5">About Me</h1>
-      <div class="about-body">
+      <div class="content-body">
       <p class="text-white">
         Welcome to my Portfolio Website.  I currently reside in the suburbs of Raleigh, NC.  I have
         lived in the Raleigh area for approximately 15 years.  I am currently employeed with At&t with
