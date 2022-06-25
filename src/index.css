@@ -1,7 +1,13 @@
 
-.navigation {
+.body {
     background-color: black;
     height: 1000px;
+    background-image: url('header.jpg');
+}
+
+.nav-tabs-all {
+    background-color: rgb(34, 32, 32);
+    
 }
 
 .contact-form {
@@ -14,6 +20,7 @@
     box-shadow: 10px 20px 20px blue;
     border-style: solid;
     border-color: white;
+    background-color: black;
 }
 
 .page-title {
@@ -21,13 +28,14 @@
 }
 
 .body-title {
-    text-shadow: 3px 3px 4px lightskyblue;
+    text-shadow: 3px 3px 4px blue;
 }
 
 .about-body{
     padding: 20px;
     border-style: solid;
-    border-color: white
+    border-color: white;
+    background-color: black;
 }
 
 .picture {
@@ -38,13 +46,15 @@
 .resume-link:hover {
     background-color: white;
     color: black;
-    border-radius: 5px;
-    transition:1s;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    transition:2s;
 
 }
 
 .resume-link {
   text-decoration: none;  
   padding: 2px;
-  
+  font-size: 20px;
+  font-weight: bold;
 }

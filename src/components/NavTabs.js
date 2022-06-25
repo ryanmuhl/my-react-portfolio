@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="nav-all">
+    <div class="nav-all nav-tabs-all">
       <header class="header">
         <h1 class="text-white page-title">Ryan Uhl's Portfolio</h1>
       </header>
