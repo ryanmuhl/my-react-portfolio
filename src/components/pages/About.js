@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div class="container pt-5">
       <img src={coverImage} class="img-fluid img-thumbnail picture" alt="Responsive image"></img>
-      <h1 class="text-white body-title">About Page</h1>
+      <h1 class="text-white body-title pt-5">About Me</h1>
       <div class="about-body">
       <p class="text-white">
         Welcome to my Portfolio Website.  I currently reside in the suburbs of Raleigh, NC.  I have
