@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>
+    <div class="container pt-5">
+      <h1 class="text-white">Portfolio</h1>
+      <p class="text-white">
        My Portfolio
       </p>
     </div>
