@@ -37,7 +37,8 @@ Create application so that a future employer can view my deployed React portfoli
 ## GitHub Repository
 https://github.com/ryanmuhl/my-react-portfolio
 
-## Heroku Link
+## Github Pages Link
+https://ryanmuhl.github.io/my-react-portfolio/
 
 
 ## Contributions
