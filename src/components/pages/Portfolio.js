@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
+    // Start Portfolio container
     <div class="container pt-5">
       <h1 class="text-white body-title pb-3">Portfolio</h1>
-
       <div class="row">
 
         <div class="col">
@@ -24,7 +24,7 @@ export default function Portfolio() {
 
         <div class="col background-all">
           <div class="background2">
-          <h3 class="project-title text-center">Greater Purpose</h3>
+            <h3 class="project-title text-center">Greater Purpose</h3>
             <div class="app-links">
               <a href="https://fathomless-waters-53680.herokuapp.com/" target="_blank" class="title">App</a>
             </div>
@@ -38,7 +38,7 @@ export default function Portfolio() {
 
         <div class="col">
           <div class="background3">
-          <h3 class="project-title text-center">Budget Tracker</h3>
+            <h3 class="project-title text-center">Budget Tracker</h3>
             <div class="app-links">
               <a href="https://peaceful-stream-09817.herokuapp.com/" target="_blank" class="title">App</a>
             </div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
 
         <div class="col">
           <div class="background4 text-center">
-          <h3 class="project-title">Weather Dashboard</h3>
+            <h3 class="project-title">Weather Dashboard</h3>
             <div class="app-links">
               <a href="https://ryanmuhl.github.io/weather-dashboard/" target="_blank" class="title">App</a>
             </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
 
         <div class="col">
           <div class="background5">
-          <h3 class="project-title text-center">Work Day Scheduler</h3>
+            <h3 class="project-title text-center">Work Day Scheduler</h3>
             <div class="app-links">
               <a href="https://ryanmuhl.github.io/work-day-scheduler/" target="_blank" class="title">App</a>
             </div>
@@ -83,7 +83,7 @@ export default function Portfolio() {
 
         <div class="col">
           <div class="background6">
-          <h3 class="project-title text-center">Run Buddy</h3>
+            <h3 class="project-title text-center">Run Buddy</h3>
             <div class="app-links">
               <a href="https://ryanmuhl.github.io/run-buddy/" target="_blank" class="title">App</a>
             </div>
@@ -96,11 +96,12 @@ export default function Portfolio() {
         </div>
       </div>
 
-
-
-
-
-
     </div>
+    // End Portfolio container
   );
 }
+
+
+
+
+

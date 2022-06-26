@@ -38,34 +38,35 @@ function ContactForm() {
   };
 
   return (
+    // Start Contact Form
     <section>
-    <div class="pt-5 contact-form">
-      <div class="container">
-      <h1 class="text-white body-title" data-testid="h1tag">Contact Me</h1>
-      </div>
-      <form class="container p-3 mb-5 rounded contact-container" id="contact-form" onSubmit={handleSubmit}>
-        <div class="row pb-1">
-          <label class="text-white" htmlFor="name">Name:</label>
-          <input type="text" name="name" controlId="ControlInput1" defaultValue={name} onBlur={handleChange} />
+      <div class="pt-5 contact-form">
+        <div class="container">
+          <h1 class="text-white body-title" data-testid="h1tag">Contact Me</h1>
         </div>
-        <div class="row">
-          <label class="text-white" htmlFor="email">Email address:</label>
-          <input type="email" controlId="ControlInput1" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div class="row pb-2">
-          <label class="text-white" htmlFor="message">Message:</label>
-          <textarea controlId="ControlInput1" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div class="text-white">
-            <p className="error-text">{errorMessage}</p>
+        <form class="container p-3 mb-5 rounded contact-container" id="contact-form" onSubmit={handleSubmit}>
+          <div class="row pb-1">
+            <label class="text-white" htmlFor="name">Name:</label>
+            <input type="text" name="name" controlId="ControlInput1" defaultValue={name} onBlur={handleChange} />
           </div>
-        )}
-        <button type="submit" class="btn btn-outline-light" data-testid="button">Dark</button>
-      </form>
-  </div>
+          <div class="row">
+            <label class="text-white" htmlFor="email">Email address:</label>
+            <input type="email" controlId="ControlInput1" name="email" defaultValue={email} onBlur={handleChange} />
+          </div>
+          <div class="row pb-2">
+            <label class="text-white" htmlFor="message">Message:</label>
+            <textarea controlId="ControlInput1" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          </div>
+          {errorMessage && (
+            <div class="text-white">
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button type="submit" class="btn btn-outline-light" data-testid="button">Dark</button>
+        </form>
+      </div>
     </section>
-    
+    // End Contact Form
   );
 }
 

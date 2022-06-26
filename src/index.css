@@ -28,6 +28,7 @@
 .page-title {
     text-shadow: 5px 4px 4px blue;
     font-family: "Papyrus"; 
+    font-weight: bolder;
 }
 
 .body-title {
