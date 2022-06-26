@@ -54,8 +54,8 @@ export default function Portfolio() {
       <div class="row pt-4">
 
         <div class="col">
-          <div class="background4 text-center">
-            <h3 class="project-title">Weather Dashboard</h3>
+          <div class="background4 ">
+            <h3 class="project-title text-center">Weather Dashboard</h3>
             <div class="app-links">
               <a href="https://ryanmuhl.github.io/weather-dashboard/" target="_blank" class="title">App</a>
             </div>
