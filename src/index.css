@@ -1,12 +1,14 @@
 
 .body {
-    background-color: black;
+    background-color: rgb(69, 64, 64);
     height: 1500px;
-    background-image: url('header.jpg');
 }
 
 .nav-tabs-all {
-    background-color: rgb(34, 32, 32);
+    background-color: black;
+    position: sticky; top:0;
+    font-size: larger;
+    font-weight: bolder;
     
 }
 
@@ -17,32 +19,34 @@
 }
 
 .contact-container {
-    box-shadow: 10px 20px 20px blue;
+    box-shadow: 10px 12px 10px black;
     border-style: solid;
     border-color: white;
-    background-color: black;
+    background-color:  rgb(34, 32, 32);
 }
 
 .page-title {
     text-shadow: 5px 4px 4px blue;
+    font-family: "Papyrus"; 
 }
 
 .body-title {
     text-shadow: 3px 3px 4px blue;
+    text-decoration: underline white;
 }
 
 .content-body{
     padding: 20px;
     border-style: solid;
     border-color: white;
-    background-color: black;
+    background-color:  rgb(34, 32, 32);
     border-radius: 20px;
-    box-shadow: 10px 20px 20px blue;
+    box-shadow: 10px 12px 10px black;
 }
 
 .picture {
     width: 15%;
-    box-shadow: 10px 20px 20px blue;
+    box-shadow: 10px 12px 10px black;
 }
 
 .resume-link:hover {
@@ -79,7 +83,7 @@
 
 .footer-container {
     width: 50%;
-    background-color: rgb(34, 32, 32);
+    background-color: rgb(69, 64, 64);
     border-radius: 10px;
 }
 
@@ -94,4 +98,84 @@
     color: white;
 }
 
+.background1 {
+    background-image: url('./assets/music-lover.jpg');
+    height: 300px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
 
+.background2 {
+    background-image: url('./assets/greater-purpose.jpg');
+    height: 300px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
+
+.background3 {
+    background-image: url('./assets/budget-tracker.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
+
+.background4 {
+    background-image: url('./assets/weather-dashboard.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
+
+.background5 {
+    background-image: url('./assets/work-day-scheduler.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
+
+.background6 {
+    background-image: url('./assets/run-buddy.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px black;
+}
+
+.app-links a {
+    font-weight:bolder;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 4px blue;
+    padding: 2px;
+    
+}
+
+.app-links a:hover {
+    color: white;
+    border-radius: 2px;
+    transition:.8s;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.project-title {
+    color: white;
+    background-color: rgb(34, 32, 32);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 3px 3px 4px blue;
+}

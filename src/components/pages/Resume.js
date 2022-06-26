@@ -37,7 +37,7 @@ export default function Resume() {
        
         </div>
 
-        <div class="row pt-5 qualifications">
+        <div class="row qualifications">
         <h2>Back End Technologies/Skills</h2>
           <div class="col">
             
