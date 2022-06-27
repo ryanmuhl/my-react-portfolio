@@ -1,5 +1,5 @@
 import React from 'react';
-import Obiwan from '../../assets/headshot.jpg'
+import Resume from '../../assets/Resume.pdf'
 
 export default function Resume() {
   return (
@@ -8,7 +8,7 @@ export default function Resume() {
       <h1 class="text-white body-title pb-2">My Qualifications</h1>
       <div class="content-body">
         <div class="pb-3">
-          <a class="resume-link" href={Obiwan} download="Obiwan.jpg">Ryan Uhl - Resume</a>
+          <a class="resume-link" href={Resume} download="Resume.pdf">Ryan Uhl - Resume</a>
         </div>
         <div class="row qualifications">
           <h2>Front End Technologies/Skills</h2>
