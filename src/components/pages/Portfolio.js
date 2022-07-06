@@ -94,7 +94,24 @@ export default function Portfolio() {
 
           </div>
         </div>
+
+        <div class="col">
+          <div class="background7">
+            <h3 class="project-title text-center">Grandma's Mismatched Taxidermy</h3>
+            <div class="app-links">
+              <a href="https://infinite-falls-54621.herokuapp.com/" target="_blank" class="title">App</a>
+            </div>
+
+            <div class="app-links">
+              <a href="https://github.com/FelixA-GitHub/Grandmas-Mismatched-Taxidermy" target="_blank" class="title">GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+      
+
 
     </div>
     // End Portfolio container
